@@ -1,6 +1,6 @@
 A [Giter8][g8] template for showcasing how to read & write data from Kafka-cluster using Scala Producer & Consumer API.
 
-activator-kafka-scala-producer-consumer
+Read Kafka Topic 
 ----------------------------------------
 
 #### Steps to Install and Run zookeeper and kafka on your system : 
@@ -47,13 +47,3 @@ Start  Kafka server:
     $ ./activator "run-main com.knoldus.kafka.demo.ConsumerApp"
   
   You can start multiple consumers at a time which pull messages from kafka queue.
-
-Template license
-----------------
-Written in ​ 2017​ by ​ [Knoldus Software LLP](http://knoldus.com)
-
-To the extent possible under law, the author(s) have dedicated all copyright and related and neighboring rights to this template to the public domain worldwide.
-
-This template is distributed without any warranty. See
-<http://creativecommons.org/publicdomain/zero/1.0/>.
-[g8]: http://www.foundweekends.org/giter8/

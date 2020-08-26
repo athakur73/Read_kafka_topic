@@ -4,7 +4,7 @@
 		module="g8-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20200825214853"
+		publication="20200826174818"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

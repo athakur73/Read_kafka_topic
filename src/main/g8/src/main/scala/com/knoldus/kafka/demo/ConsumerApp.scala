@@ -10,7 +10,7 @@ object ConsumerApp extends App {
       case Some(message) =>
         println("Getting message.......................  " + message)
         // wait for 100 milli second for another read
-        Thread.sl
+        Thread.sleep(200)
       case None =>
         println("Queue is empty.......................  ")
         // wait for 2 second
