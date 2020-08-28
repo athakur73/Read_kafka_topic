@@ -12,7 +12,7 @@ object ConsumerApp extends App {
       case Some(message) =>
         println("Getting message.......................  " + message)
 
-        val value = JsonGenerator.generate(MsgPack.toSerializableMap(record))
+        val value = JsonGenerator.generate(MsgPack.toSerializableMap(message))
         println("Json data"+value)
         // wait for 100 milli second for another read
         Thread.sleep(200)
